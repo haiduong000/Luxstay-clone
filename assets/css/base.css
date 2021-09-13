@@ -1,0 +1,55 @@
+
+:root {
+    --black-color:#000;
+    --text-color:#555;
+    --white-color:#fff;
+    --primary-color:#EE4D2D;
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1260px;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+
+.grid__row {
+    display: flex;
+    margin: 0;
+    width: 1200px;
+   
+}
+.grid__column-2-4 {
+    width: 216px;
+    height: 270px;
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+
+}
+.grid-2-4 {
+    width: 255px;
+
+    
+}
+.grid__column-3-4 {
+    height: 180px;
+    display: flex;
+    position: relative;
+
+}
+.grid__column-4-4 {
+    display: flex;
+    margin-bottom: 10px;
+    position: relative;
+}
